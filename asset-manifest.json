@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/skill-map/static/css/main.8c736fa3.css",
+    "main.js": "/skill-map/static/js/main.cc4c26bf.js",
+    "index.html": "/skill-map/index.html",
+    "main.8c736fa3.css.map": "/skill-map/static/css/main.8c736fa3.css.map",
+    "main.cc4c26bf.js.map": "/skill-map/static/js/main.cc4c26bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c736fa3.css",
+    "static/js/main.cc4c26bf.js"
+  ]
+}
