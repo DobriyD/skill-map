@@ -327,8 +327,7 @@ function App() {
   return (
     <div className="App">
       <p>
-        Scale nodes and edges depending on their value. Hover over nodes and edges to
-        get more information.
+        Prototype of the matching system, which
       </p>
       <div id="mynetwork"></div>
     </div>
