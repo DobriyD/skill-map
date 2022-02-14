@@ -1,0 +1,10 @@
+html,
+body {
+    font: 10pt arial;
+}
+#mynetwork {
+    margin: 5px;
+    width: auto;
+    height: 700px;
+    border: 3px solid lightgray;
+}
