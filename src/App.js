@@ -151,6 +151,42 @@ function App() {
       { id: 141, value: 20, label: "ФЗ" },
       { id: 142, value: 20, label: "CR" },
       { id: 143, value: 20, label: "GDPR" },
+
+        //Get me it tags to compare differences
+
+      { id: 175, value: 1000, label: "Core", font: { size: 30 }, shape: "circle", color: "gray" },
+
+
+      { id: 148, value: 600, label: "Java, Scala, Kotlin", color: "gray" },
+      { id: 149, value: 200, label: "Java Core", color: "gray" },
+      { id: 150, value: 200, label: "Java EE", color: "gray" },
+      { id: 151, value: 200, label: "Spring", color: "gray" },
+      { id: 152, value: 200, label: "Kotlin", color: "gray" },
+      { id: 153, value: 200, label: "Scala/Big Data", color: "gray" },
+
+      { id: 154, value: 600, label: "JavaScript", color: "gray" },
+      { id: 155, value: 200, label: "Angular", color: "gray" },
+      { id: 156, value: 200, label: "React", color: "gray" },
+      { id: 157, value: 200, label: "Vue.js", color: "gray" },
+      { id: 158, value: 200, label: "NativeJS", color: "gray" },
+      { id: 159, value: 200, label: "Node.js", color: "gray" },
+      { id: 160, value: 200, label: "jQuery", color: "gray" },
+      { id: 161, value: 200, label: "TypeScript", color: "gray" },
+
+      { id: 162, value: 600, label: "Python", color: "gray" },
+
+      { id: 163, value: 600, label: ".Net", color: "gray" },
+      { id: 164, value: 600, label: "C/C++", color: "gray" },
+      { id: 165, value: 600, label: "PHP", color: "gray" },
+      { id: 166, value: 600, label: "Go", color: "gray" },
+      { id: 167, value: 600, label: "QA", color: "gray" },
+      { id: 168, value: 600, label: "DevOps", color: "gray" },
+      { id: 169, value: 600, label: "Security", color: "gray" },
+      { id: 170, value: 600, label: "Mobile", color: "gray" },
+      { id: 171, value: 600, label: "DataScience", color: "gray" },
+      { id: 172, value: 600, label: "Analyst", color: "gray" },
+      { id: 173, value: 600, label: "Manager", color: "gray" },
+      { id: 174, value: 600, label: "UI/UX", color: "gray" },
     ];
 
     // create connections between people
@@ -294,6 +330,37 @@ function App() {
       { from: 129, to: 136, value: 1 },
       { from: 31, to: 123, value: 1 },
       { from: 29, to: 107, value: 3 },
+      { from: 29, to: 129, value: 3 },
+      { from: 137, to: 140, value: 1 },
+      { from: 29, to: 137, value: 1 },
+
+      { from: 175, to: 148, value: 3 },
+      { from: 175, to: 154, value: 3 },
+      { from: 175, to: 162, value: 1 },
+      { from: 175, to: 163, value: 1 },
+      { from: 175, to: 164, value: 1 },
+      { from: 175, to: 165, value: 1 },
+      { from: 175, to: 166, value: 1 },
+      { from: 175, to: 167, value: 1 },
+      { from: 175, to: 168, value: 1 },
+      { from: 175, to: 169, value: 1 },
+      { from: 175, to: 170, value: 1 },
+      { from: 175, to: 171, value: 1 },
+      { from: 175, to: 172, value: 1 },
+      { from: 175, to: 173, value: 1 },
+      { from: 175, to: 174, value: 1 },
+      { from: 148, to: 149, value: 1 },
+      { from: 148, to: 150, value: 1 },
+      { from: 148, to: 151, value: 1 },
+      { from: 148, to: 152, value: 1 },
+      { from: 148, to: 153, value: 1 },
+      { from: 154, to: 155, value: 1 },
+      { from: 154, to: 156, value: 1 },
+      { from: 154, to: 157, value: 1 },
+      { from: 154, to: 158, value: 1 },
+      { from: 154, to: 159, value: 1 },
+      { from: 154, to: 160, value: 1 },
+      { from: 154, to: 161, value: 1 },
 
 
     ];
@@ -327,7 +394,7 @@ function App() {
   return (
     <div className="App">
       <p>
-        Prototype of the matching system, which
+        Prototype of the matching system, which can garantee a 147% of a match between employer and employee.
       </p>
       <div id="mynetwork"></div>
     </div>

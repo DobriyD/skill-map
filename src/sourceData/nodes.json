@@ -184,3 +184,38 @@
     { id: 143, value: 20, label: "GDPR" },
   ]
 },
+
+{ "GMI Version":
+  [
+    { id: 148, value: 35, label: "Java, Scala, Kotlin" },
+    { id: 149, value: 20, label: "Java Core" },
+    { id: 150, value: 20, label: "Java EE" },
+    { id: 151, value: 20, label: "Spring" },
+    { id: 152, value: 20, label: "Kotlin" },
+    { id: 153, value: 20, label: "Scala/Big Data" },
+
+    { id: 154, value: 20, label: "JavaScript" },
+    { id: 155, value: 20, label: "Angular" },
+    { id: 156, value: 20, label: "React" },
+    { id: 157, value: 20, label: "Vue.js" },
+    { id: 158, value: 20, label: "NativeJS" },
+    { id: 159, value: 20, label: "Node.js" },
+    { id: 160, value: 20, label: "jQuery" },
+    { id: 161, value: 20, label: "TypeScript" },
+
+    { id: 162, value: 7, label: "Python" },
+
+    { id: 163, value: 7, label: ".Net" },
+    { id: 164, value: 20, label: "C/C++" },
+    { id: 165, value: 7, label: "PHP" },
+    { id: 166, value: 35, label: "Go" },
+    { id: 167, value: 20, label: "QA" },
+    { id: 168, value: 20, label: "DevOps" },
+    { id: 169, value: 20, label: "Security" },
+    { id: 170, value: 20, label: "Mobile" },
+    { id: 171, value: 20, label: "DataScience" },
+    { id: 172, value: 20, label: "Analyst" },
+    { id: 173, value: 20, label: "Manager" },
+    { id: 174, value: 35, label: "UI/UX" },
+  ]
+},
